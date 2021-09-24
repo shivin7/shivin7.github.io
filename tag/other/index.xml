@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other | Shivin Thukral</title>
+    <link>https://shivin7.github.io/tag/other/</link>
+      <atom:link href="https://shivin7.github.io/tag/other/index.xml" rel="self" type="application/rss+xml" />
+    <description>Other</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shivin7.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Other</title>
+      <link>https://shivin7.github.io/tag/other/</link>
+    </image>
+    
+    <item>
+      <title>Inventory Website Development for University Auditorium</title>
+      <link>https://shivin7.github.io/project/website/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://shivin7.github.io/project/website/</guid>
+      <description>&lt;p&gt;This project was used for development of a website for tracking item inventory as per the requirement of Department of Backstage, BITS Goa. The website has since been used during all major fests and events for proper inventory management.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

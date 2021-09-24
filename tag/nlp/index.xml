@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP | Shivin Thukral</title>
+    <link>https://shivin7.github.io/tag/nlp/</link>
+      <atom:link href="https://shivin7.github.io/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <description>NLP</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shivin7.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>NLP</title>
+      <link>https://shivin7.github.io/tag/nlp/</link>
+    </image>
+    
+    <item>
+      <title>Distributional Modelling of Cross-Cultural Judgement of Food Terms</title>
+      <link>https://shivin7.github.io/project/bits_thesis/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://shivin7.github.io/project/bits_thesis/</guid>
+      <description>&lt;p&gt;This project was done as an undergraduate thesis component, under the supervision of &lt;a href=&#34;https://www.ims.uni-stuttgart.de/en/institute/team/Pado-00001/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Sebastian Padó&lt;/a&gt; and &lt;a href=&#34;https://www.ling.uni-konstanz.de/en/frassinelli/diego-frassinelli/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Diego Frassinelli&lt;/a&gt; at &lt;a href=&#34;https://www.ims.uni-stuttgart.de/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institute of Natural Language Processing&lt;/a&gt;, University of Stuttgart.&lt;/p&gt;
+&lt;p&gt;As part of this project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The motivation was to explore presence of cultural information in distributional vectors of different food terms&lt;/li&gt;
+&lt;li&gt;Sentences for each food term were extracted from Wikipedia corpus and contextual embeddings were formed using BERT Framework&lt;/li&gt;
+&lt;li&gt;Models were trained to predict norms of people (culture) from embedding space (language) which reached upto 0.7 correlation in few aspects&lt;/li&gt;
+&lt;li&gt;Cross-lingual models over multiple norms performed better for English embeddings due to richer feature space&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emotion Analysis of Food Reviews</title>
+      <link>https://shivin7.github.io/project/emotion/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://shivin7.github.io/project/emotion/</guid>
+      <description>&lt;p&gt;This project was a part of the &lt;em&gt;Information Retrieval&lt;/em&gt; course offered at BITS Pilani, K K Birla Goa Campus. The goal of this project is to perform sentiment analysis of Amazon Fine Food Reviews dataset, and this is done using an IR model in which each review is scored on a sentiment score of 0-5 against 5 different aspects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Taste Quality&lt;/li&gt;
+&lt;li&gt;Product Quality&lt;/li&gt;
+&lt;li&gt;Price&lt;/li&gt;
+&lt;li&gt;Quantity&lt;/li&gt;
+&lt;li&gt;Delivery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The main steps that go about into the IR model are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sentence Decomposition&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Forming micro-sentences from entire review [input]&lt;/li&gt;
+&lt;li&gt;Exclamatory phrases like ‘Wow!’ form individual micro-sentences, and add to emotional weight of neighboring micro-sentences&lt;/li&gt;
+&lt;li&gt;Isolated-word spelling correction using n-gram index edit distance&lt;/li&gt;
+&lt;li&gt;Can use frameworks like NLTK for decomposition into micro-sentences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Feature-Emotion Extraction&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;List of features (example – food quality, service) composed&lt;/li&gt;
+&lt;li&gt;Dictionary of emotions/adjectives along with their polarity score used (example – SenticNet)&lt;/li&gt;
+&lt;li&gt;Dictionary of emojis/emoticons (text/image/encoded form) along with their polarity score used (example – Emoji Sentiment Ranking)&lt;/li&gt;
+&lt;li&gt;POS-tagging used to extract object (feature) and adjective (emotion) of each micro-sentence&lt;/li&gt;
+&lt;li&gt;Score of each feature calculated by corresponding emotion’s polarity score&lt;/li&gt;
+&lt;li&gt;Polarity of emoji contributes to score of particular feature depending on context/position of emoji&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Scoring&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;For each feature, scores of individual micro-sentences summed&lt;/li&gt;
+&lt;li&gt;Final feature scores normalized to prevent discrimination between lenient/strict raters [output&lt;/li&gt;
+&lt;li&gt;Final emotion (example – satisfied, angry) of user calculated on basis of weighted scores of all features [output]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

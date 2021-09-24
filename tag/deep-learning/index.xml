@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning | Shivin Thukral</title>
+    <link>https://shivin7.github.io/tag/deep-learning/</link>
+      <atom:link href="https://shivin7.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shivin7.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Deep Learning</title>
+      <link>https://shivin7.github.io/tag/deep-learning/</link>
+    </image>
+    
+    <item>
+      <title>Robustness Testing of Neural Networks</title>
+      <link>https://shivin7.github.io/project/robustness/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://shivin7.github.io/project/robustness/</guid>
+      <description>&lt;p&gt;This was a design project under the supervision of &lt;a href=&#34;https://tirtharajdash.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Tirtharaj Dash&lt;/a&gt; at BITS Pilani, K K Birla Goa Campus. The aim of this project was to train a model which generates minimum noise to fool a pre-trained neural network.&lt;/p&gt;
+&lt;p&gt;The following was done as part of the design project :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Initially, random Gaussian noise was added to different (deep/shallow) neural networks trained on MNIST data and their robustness was compared by measuring the minimum amount of noise that needed to be added to produce a certain threshold of misclassification&lt;/li&gt;
+&lt;li&gt;After this we attempted to train the noise using a neural network. For this purpose, a basic dataset of modulus-2 was used. A classifier NN was trained on it, and then an adversarial NN was used to produce minimum noise which when added to inputs of the classifier NN produces wrong outputs. Two loss functions were used to train the adversarial NN :&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Misclassification Loss – The accuracy between completely wrong labels of inputs and labels produced by classifier NN when inputs + noise by adversarial NN is fed&lt;/li&gt;
+&lt;li&gt;Regularization Loss – L2 loss corresponding to the amount of noise produced by adversarial NN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;After this, a Dog/Cat image dataset was used so that the noise added could be visualized easily, and it could be interpreted if the added noise is less perceptible to human eyes but crucial in changing the class of a pre-trained neural network. An auto-encoder architecture was employed for the same, and results were compared by trying different architectures, loss weightage, input size, etc.&lt;/li&gt;
+&lt;li&gt;To try and improve the noise producing capacity of adversarial NN, we tried to convert it completely into a CNN, employing a deep architecture by using VGG16. However, we have had some problems in making the model converge to produce stable noise, and further work needs to be done by trying different combinations in architecture.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image De-Raining using Deconvolutional Networks</title>
+      <link>https://shivin7.github.io/project/deraining/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://shivin7.github.io/project/deraining/</guid>
+      <description>&lt;p&gt;This project was a part of the &lt;em&gt;Neural Networks and Fuzzy Logic&lt;/em&gt; course offered at BITS Pilani, K K Birla Goa Campus. The goal of this project was to train a neural network to take as input rainy images and produce rain-free images as output.&lt;/p&gt;
+&lt;p&gt;As part of this project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Different models (auto-encoders/GANs) were trained to produce rain free images in a supervised setting&lt;/li&gt;
+&lt;li&gt;TensorFlow framework used to implement deep networks for model training&lt;/li&gt;
+&lt;li&gt;Considerable rain-free images were produced both on synthetic and natural rainy images without much perturbations&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
