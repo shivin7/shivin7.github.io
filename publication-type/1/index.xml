@@ -5,12 +5,28 @@
     <link>https://shivin7.github.io/publication-type/1/</link>
       <atom:link href="https://shivin7.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shivin7.github.io/media/icon_hu613356a2eab380f8431040188af1709c_11558_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://shivin7.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Multilingual Unsupervised Sequence Segmentation transfers to Extremely Low-resource Languages</title>
+      <link>https://shivin7.github.io/publication/xlslm/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://shivin7.github.io/publication/xlslm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probing Language Models for Understanding of Temporal Expressions</title>
+      <link>https://shivin7.github.io/publication/temporal-exprs/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://shivin7.github.io/publication/temporal-exprs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Detection of Malicious Android Applications: Classical Machine Learning vs. Deep Neural Network Integrated with Clustering</title>
